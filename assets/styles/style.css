@@ -38,6 +38,9 @@ body{
     gap: 25px;
 }
 
+
+/*------ Index Page ------*/
+
 /* Main div */
 .main{
     display: flex;
@@ -211,4 +214,76 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/*------ News Page ------*/
+
+/* News Title */
+.news_title{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.news_title h1{
+    font-size: 45px;
+}
+
+.news_title p{
+    font-size: 23px;
+}
+
+/* News Content */
+.news_content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0px 230px;
+    padding: 35px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: #1F2937;
+    border-radius: 10px;
+}
+
+.news_content p{
+    font-size: 19px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*------ Videos Page ------*/
+
+/* Videos Title */
+.videos_title{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.videos_title h1{
+    font-size: 45px;
+}
+
+.videos_title p{
+    font-size: 23px;
+}
+
+/* Videos Gallery */
+.videos_gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 420px;
+    padding: 0px 45px;
+    background-color: antiquewhite;
 }

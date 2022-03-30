@@ -242,7 +242,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 0px 230px;
+    margin: 0px 190px;
     padding: 35px 15px;
     justify-content: center;
     align-items: center;
@@ -279,11 +279,113 @@ button:hover{
 }
 
 /* Videos Gallery */
-.videos_gallery{
+
+.videos_section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 420px;
+    height: 380px;
     padding: 0px 45px;
     background-color: antiquewhite;
+}
+
+.videos_container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.videos{
+    width: 265px;
+}
+
+.videos_media{
+    width: 265px;
+    height: 170px;
+}
+
+
+/*------ Contacts Page ------*/
+
+.contact_title{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact_title h1{
+    font-size: 45px;
+}
+
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.contact_content p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*------ Sign up Page ------*/
+
+.signup_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.signup_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 780px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.signup_media2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 99, 235);
+    margin: 80px 0px;
+    padding: 48px 75px;
+    border-radius: 12px;
+    gap: 75px;
+}
+
+.signup_text2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 3px;
+    padding: 15px 0px;
+}
+
+.signup_text2 h3, p{
+    margin: 0;
+}
+
+.signup_button2{
+    color: aliceblue;
+    background-color: rgb(219, 128, 128);
+    border: 1px solid rgb(219, 216, 216);
+    height: 53px;
+    width: 100px;
+}
+
+.signup_button2:hover{
+    background-color: rgb(207, 123, 123);
+    color: rgb(83, 82, 82);
 }
